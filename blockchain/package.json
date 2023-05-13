@@ -1,13 +1,23 @@
 {
   "name": "hardhat-project",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
-    "@nomiclabs/hardhat-etherscan": "^3.1.0",
-    "hardhat": "^2.10.1"
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "hardhat": "2.x",
+    "hardhat-deploy": "^0.11.26",
+    "watch": "1.0.2"
   },
   "dependencies": {
-    "@chainlink/contracts": "^0.4.2",
-    "@openzeppelin/contracts": "^4.7.3",
-    "dotenv": "^16.0.1"
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^4.8.3",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "watch:test": "watch 'npm test' ./contracts ./test",
+    "coverage": "hardhat coverage",
+    "deploy": "hardhat run --network rinkeby scripts/deploy.js",
+    "verify": "hardhat verify --network rinkeby DEPLOYED_CONTRACT_ADDRESS 'CONSTRUCTOR_ARG_1' 'CONSTRUCTOR_ARG_2'"
   }
 }

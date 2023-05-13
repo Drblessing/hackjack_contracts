@@ -1,0 +1,36 @@
+{
+  "VRFv2": {
+    "Ethereum_Mainnet": {
+      "LINK_Token": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "VRF_Coordinator": "0x271682DEB8C4E0901D1a1550aD2e64D568E69909",
+      "Key_Hash": "0x8af398995b04c28e9951adb9721ef74c74f93e6a478f39e7e0777be13527e7ef",
+      "Premium": "0.25",
+      "Max_Gas_Limit": "2500000",
+      "Minimum_Confirmations": "3"
+    },
+    "Sepolia": {
+      "LINK_Token": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+      "VRF_Coordinator": "0x8103B0A8A00be2DDC778e6e7eaa21791Cd364625",
+      "Key_Hash": "0x474e34a077df58807dbe9c96d3c009b23b3c6d0cce433e59bbf5b34f823bc56c",
+      "Premium": "0.25",
+      "Max_Gas_Limit": "2500000",
+      "Minimum_Confirmations": "3"
+    },
+    "Mumbai": {
+      "LINK_Token": "0x326C977E6efc84E512bB9C30f76E30c160eD06FB",
+      "VRF_Coordinator": "0x7a1BaC17Ccc5b313516C5E16fb24f7659aA5ebed",
+      "Key_Hash": "0x4b09e658ed251bcafeebbc69400383d49f344ace09b9576fe248bb02c003fe9f",
+      "Premium": "0.0005",
+      "Max_Gas_Limit": "2500000",
+      "Minimum_Confirmations": "3"
+    },
+    "Polygon_Mainnet": {
+      "LINK_Token": "0xb0897686c545045aFc77CF20eC7A532E3120E0F1",
+      "VRF_Coordinator": "0xAE975071Be8F8eE67addBC1A82488F1C24858067",
+      "Key_Hash": "0x6e099d640cde6de9d40ac749b4b594126b0169747122711109c9985d47751f93",
+      "Premium": "0.0005",
+      "Max_Gas_Limit": "2500000",
+      "Minimum_Confirmations": "3"
+    }
+  }
+}

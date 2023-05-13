@@ -2,11 +2,9 @@
 pragma solidity ^0.8.16;
 
 contract BreakdownUint256 {
-    function getUint256BrokenIntoUint8(uint256 n)
-        public
-        pure
-        returns (uint8[] memory)
-    {
+    function getUint256BrokenIntoUint8(
+        uint256 n
+    ) public pure returns (uint8[] memory) {
         uint8[] memory _8BitNumbers = new uint8[](32);
 
         // Mask to copy 8 bits at a time
@@ -41,5 +39,4 @@ contract BreakdownUint256 {
 
         return _8BitNumbers;
     }
-
 }
